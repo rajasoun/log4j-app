@@ -18,14 +18,3 @@ $ ./assist.bash router up
 $ ./assist.bash router status
 $ ./assist.bash router logs app
 ```
-
-## To Run in VM
-
-1. Prepare a Multipass VM to test in isolation (Optional)
-```
-./provision/multipass/prepare-multipass.sh
-```
-2. Teardown
-```
-./provision/multipass/clean-multipass.sh
-```
