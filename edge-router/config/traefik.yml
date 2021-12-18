@@ -1,5 +1,11 @@
 log:
-  level: WARN #INFO
+  level: INFO
+  filePath: '/logs/traefik.log'
+
+accesslog:
+  filepath: '/logs/access.log'
+  bufferingsize: 100
+
 
 entryPoints:
   http:
